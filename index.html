@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinta & Aksara - Toko Buku & Novel Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-book-open"></i> Tinta & Aksara
+        </div>
+        <nav class="nav-links">
+            <a href="#katalog">Katalog</a>
+            <a href="#tentang">Tentang Kami</a>
+        </nav>
+        <div class="cart-icon-wrapper" onclick="toggleCartModal()">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
 
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Temukan Kisah Favoritmu Berikutnya</h1>
+            <p>Jelajahi ribuan novel terlaris, fiksi ilmiah, roman, hingga buku pengembangan diri dengan harga terbaik.</p>
+            <a href="#katalog" class="btn-primary">Jelajahi Novel</a>
+        </div>
+    </section>
+
+    <main class="container" id="katalog">
+        <div class="section-title">
+            <h2>Katalog Buku & Novel</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterBooks('all')">Semua</button>
+                <button class="filter-btn" onclick="filterBooks('fiksi')">Fiksi</button>
+                <button class="filter-btn" onclick="filterBooks('fantasy')">Fantasy</button>
+                <button class="filter-btn" onclick="filterBooks('self-dev')">Self-Dev</button>
+            </div>
+        </div>
+
+        <div class="book-grid" id="book-grid">
+            <!-- Data buku di-generate via JavaScript -->
+        </div>
+    </main>
+
+    <!-- Sidebar / Modal Keranjang Belanja -->
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-header">
+            <h3>Keranjang Belanja</h3>
+            <span class="close-btn" onclick="toggleCartModal()">&times;</span>
+        </div>
+        <div class="cart-body" id="cart-items">
+            <p class="empty-cart-msg">Keranjang belanja Anda masih kosong.</p>
+        </div>
+        <div class="cart-footer">
+            <div class="total-price">
+                <span>Total:</span>
+                <strong id="cart-total">Rp 0</strong>
+            </div>
+            <button class="btn-checkout" onclick="checkout()">Checkout via WhatsApp</button>
+        </div>
+    </div>
+    <div class="overlay" id="overlay" onclick="toggleCartModal()"></div>
+
+    <footer>
+        <p>&copy; 2026 Tinta & Aksara. Dibuat untuk Pecinta Buku.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
