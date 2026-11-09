@@ -1,35 +1,35 @@
 const books = [
     {
         id: 1,
-        title: "Bumi Manusia",
+        title: "demonslayer",
         author: "Pramoedya Ananta Toer",
         category: "fiksi",
         price: 95000,
-        image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80"
+        image: "https://cdn.phototourl.com/member/2026-11-08-f212e996-54dd-4c7f-91a8-ace25dc5f981.jpg"
     },
     {
         id: 2,
-        title: "Atomic Habits",
+        title: "jujutsukaisen",
         author: "James Clear",
         category: "self-dev",
         price: 108000,
-        image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80"
+        image: https://cdn.phototourl.com/member/2026-11-09-64efd996-dbaf-4cf9-a941-ea17b7f728f1.jpg"
     },
     {
         id: 3,
-        title: "The Hobbit",
+        title: "kucingku",
         author: "J.R.R. Tolkien",
         category: "fantasy",
         price: 125000,
-        image: "https://images.unsplash.com/photo-1629992101753-56d196c8aeaa?auto=format&fit=crop&w=400&q=80"
+        image: "https://cdn.phototourl.com/member/2026-11-09-75663777-e418-4952-af22-a8b43d17bb4b.jpg"
     },
     {
         id: 4,
-        title: "Laut Bercerita",
+        title: "nanti ajalah",
         author: "Leila S. Chudori",
         category: "fiksi",
         price: 115000,
-        image: "https://images.unsplash.com/photo-1495640388908-05fa85288e61?auto=format&fit=crop&w=400&q=80"
+        image: "https://cdn.phototourl.com/member/2026-11-09-784dd255-b62d-4c71-a032-1d964e48541b.jpg"
     }
 ];
 
