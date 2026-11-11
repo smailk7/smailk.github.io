@@ -1,22 +1,29 @@
 # smailk.github.io
+# 📖 PustakaBaca - Perpustakaan Digital & Baca Buku Online
 
-# 📚 Tinta & Aksara - Toko Buku Online
+Selamat datang di repository **PustakaBaca**! Website perpustakaan digital interaktif yang memungkinkan pengunjung membaca buku, novel, dan artikel secara gratis langsung dari browser.
 
-Aplikasi web e-commerce sederhana modern khusus untuk toko buku dan novel online.
+## 🔗 Live Demo Website
+Kunjungi website perpustakaan yang sudah aktif di:
+👉 **[https://smailk7.github.io](https://smailk7.github.io)**
+
+---
 
 ## 🚀 Fitur Utama
-- **Katalog Interactive**: Filter novel berdasarkan kategori (Fiksi, Fantasy, Self-Dev).
-- **Keranjang Belanja (Cart)**: Tambah dan hapus item dari keranjang secara real-time.
-- **Checkout via WhatsApp**: Integrasi langsung checkout pesanan ke nomor admin WhatsApp.
-- **Responsive Layout**: Tampilan optimal untuk perangkat desktop maupun mobile.
+- **📖 Mode Baca Interaktif (Popup Reader):** Membaca isi bab/halaman buku secara langsung tanpa berpindah halaman.
+- **🔍 Pencarian Real-Time:** Filter buku cepat berdasarkan judul atau nama penulis.
+- **📱 Tampilan Responsif:** Nyaman diakses melalui smartphone, tablet, maupun komputer.
+- **📁 Struktur Rapi:** Kode terpisah menggunakan HTML, CSS, dan JavaScript murni tanpa dependency luar.
 
-## 🛠️ Teknologi yang Digunakan
-- HTML5
-- CSS3 (Flexbox & Grid)
-- JavaScript (Vanilla JS)
-- FontAwesome Icons
+---
 
-## 💻 Cara Menjalankan
-1. Clone repositori ini:
-   ```bash
-   git clone [https://github.com/username-anda/toko-buku-online.git](https://github.com/username-anda/toko-buku-online.git)
+## 📂 Struktur Repositori
+
+```text
+smailk7.github.io/
+├── css/
+│   └── style.css       # File gaya & tampilan visual website
+├── js/
+│   └── script.js      # Data buku & logika modal pembaca
+├── index.html         # Halaman utama perpustakaan
+└── README.md          # Dokumentasi proyek
