@@ -1,160 +1,119 @@
-const books = [
-    {
-        id: 1,
-        title: "demonslayer",
-        author: "Pramoedya Ananta Toer",
-        category: "fiksi",
-        price: 95000,
-        image: "https://cdn.phototourl.com/member/2026-11-08-f212e996-54dd-4c7f-91a8-ace25dc5f981.jpg"
-    },
-    {
-        id: 2,
-        title: "jujutsukaisen",
-        author: "James Clear",
-        category: "self-dev",
-        price: 108000,
-        image: "https://cdn.phototourl.com/member/2026-11-09-64efd996-dbaf-4cf9-a941-ea17b7f728f1.jpg"
-    },
-    {
-        id: 3,
-        title: "kucingku",
-        author: "J.R.R. Tolkien",
-        category: "fantasy",
-        price: 125000,
-        image: "https://cdn.phototourl.com/member/2026-11-09-75663777-e418-4952-af22-a8b43d17bb4b.jpg"
-    },
-    {
-        id: 4,
-        title: "nanti ajalah",
-        author: "Leila S. Chudori",
-        category: "fiksi",
-        price: 115000,
-        image: "https://cdn.phototourl.com/member/2026-11-09-784dd255-b62d-4c71-a032-1d964e48541b.jpg"
-    },
-    {
-        id: 5,
-        title: "spireted away",
-        author: "J.R.R. Tolkien",
-        category: "fantasy",
-        price: 125000,
-        image: "https://cdn.phototourl.com/member/2026-11-11-6336b4e1-ff42-4144-ac4e-836b1f2fd119.jpg"
-    }, 
-    {
-        id: 6,
-        title: "spy family",
-        author: "J.R.R. Tolkien",
-        category: "fantasy",
-        price: 125000,
-        image: "https://cdn.phototourl.com/member/2026-11-11-63b35799-8628-48f1-a47d-e831bafb4799.jpg"
-    }, 
-    {
-        id: 7,
-        title: "revelation",
-        author: "J.R.R. Tolkien",
-        category: "fantasy",
-        price: 125000,
-        image: "https://cdn.phototourl.com/member/2026-11-11-e123d45c-79a6-4050-a910-e4bb4dee1d9c.jpg"
-    },
-    {
-        id: 8,
-        title: "mtk",
-        author: "J.R.R. Tolkien",
-        category: "fantasy",
-        price: 125000,
-        image: "https://cdn.phototourl.com/member/2026-11-11-70e71701-7c72-4112-a8bf-f66f4ca9555b.jpg"
-    } 
+const DATA_BUKU = [
+  {
+    id: 1,
+    judul: "Laskar Pelangi",
+    penulis: "Andrea Hirata",
+    deskripsi: "Kisah perjuangan 10 anak Belitung menuntut ilmu di tengah keterbatasan.",
+    gambar: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80",
+    isi: `
+      <h3>Bab 1: Sepuluh Anggota Baru</h3>
+      <p>Pagi itu, matahari terbit dengan enggan di atas desa Gantong. Di halaman sekolah Muhammadiyah yang tua dan lapuk, Bu Muslimah dan Pak Harfan berdiri cemas. Mereka membutuhkan minimal 10 murid agar sekolah itu tidak ditutup oleh dinas pendidikan.</p>
+      <br>
+      <p>Sembilan anak telah duduk di bangku kayu yang sudah goyah. Ketika harapan hampir pupus, dari kejauhan muncul Harun bersama ibunya. Harun, seorang anak istimewa, menjadi murid ke-10 yang menyelamatkan sekolah kami.</p>
+      <br>
+      <p>Sejak hari itu, petualangan kami yang penuh dengan impian, persahabatan, dan perjuangan dimulai...</p>
+    `
+  },
+  {
+    id: 2,
+    judul: "Bumi Manusia",
+    penulis: "Pramoedya Ananta Toer",
+    deskripsi: "Perjalanan Minke di awal abad ke-20 melawan ketidakadilan zaman kolonial.",
+    gambar: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80",
+    isi: `
+      <h3>Bab 1: Perkenalan di Wonokromo</h3>
+      <p>Orang memanggil aku Minke. Sebuah nama yang diberikan oleh guru HBS-ku. Aku adalah seorang pribumi yang mendapat kehormatan belajar di sekolah Eropa.</p>
+      <br>
+      <p>Suatu hari, temanku Robert Suurhof mengajakku berkunjung ke sebuah rumah besar di Wonokromo. Di sanalah aku pertama kali bertemu dengan Nyai Ontosoroh, wanita mandiri yang luar biasa, dan putrinya yang jelita, Annelies Mellema.</p>
+      <br>
+      <p>Pertemuan itu mengubah seluruh alur kehidupanku selamanya...</p>
+    `
+  },
+  {
+    id: 3,
+    judul: "Filosofi Teras",
+    penulis: "Henry Manampiring",
+    deskripsi: "Panduan stoisisme untuk menjaga kedamaian mental di dunia yang penuh kekhawatir.",
+    gambar: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=400&q=80",
+    isi: `
+      <h3>Bab 1: Manusia dan Khawatir</h3>
+      <p>Pernahkah kamu merasa cemas secara berlebihan tentang masa depan? Atau terus memikirkan perkataan orang lain yang menyakiti hatimu?</p>
+      <br>
+      <p>Filsafat Stoisisme atau Filosofi Teras mengajarkan dikotomi kendali: Ada hal-hal yang berada di bawah kendali kita (pikiran, tindakan, respon kita), dan ada hal-hal yang di luar kendali kita (pendapat orang, cuaca, masa lalu).</p>
+      <br>
+      <p>Kedamaian sejati tercipta saat kita fokus hanya pada apa yang bisa kita kendalikan...</p>
+    `
+  },
+  {
+    id: 4,
+    judul: "Atomic Habits",
+    penulis: "James Clear",
+    deskripsi: "Cara mudah dan terbukti untuk membangun kebiasaan baik dan merubah hidup.",
+    gambar: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=400&q=80",
+    isi: `
+      <h3>Bab 1: Kekuatan Dahsyat Perubahan 1%</h3>
+      <p>Sangat mudah untuk membesar-besarkan arti penting satu momen puncak dan mengecilkan arti penting pembuatan perbaikan kecil setiap hari.</p>
+      <br>
+      <p>Sering kali kita meyakinkan diri sendiri bahwa keberhasilan besar menuntut aksi yang sama besarnya. Padahal, perbaikan 1% setiap hari dalam satu tahun akan membuat Anda 37 kali lebih baik saat tahun berakhir.</p>
+      <br>
+      <p>Kebiasaan adalah bunga majemuk dari perbaikan diri...</p>
+    `
+  }
 ];
 
-let cart = [];
+// Menampilkan daftar buku
+function renderBooks(books) {
+  const container = document.getElementById('book-list');
+  if (!container) return;
+  container.innerHTML = '';
 
-function renderBooks(filter = 'all') {
-    const grid = document.getElementById('book-grid');
-    grid.innerHTML = '';
+  if (books.length === 0) {
+    container.innerHTML = '<p>Buku tidak ditemukan.</p>';
+    return;
+  }
 
-    const filtered = filter === 'all' ? books : books.filter(b => b.category === filter);
-
-    filtered.forEach(book => {
-        grid.innerHTML += `
-            <div class="book-card">
-                <img src="${book.image}" alt="${book.title}">
-                <div class="book-info">
-                    <div class="book-title">${book.title}</div>
-                    <div class="book-author">${book.author}</div>
-                    <div class="book-price">Rp ${book.price.toLocaleString('id-ID')}</div>
-                    <button class="btn-add-cart" onclick="addToCart(${book.id})">
-                        <i class="fa-solid fa-cart-plus"></i> Tambah
-                    </button>
-                </div>
-            </div>
-        `;
-    });
+  books.forEach(book => {
+    container.innerHTML += `
+      <div class="book-card">
+        <img src="${book.gambar}" alt="${book.judul}">
+        <div class="book-info">
+          <div>
+            <h3 class="book-title">${book.judul}</h3>
+            <p class="book-author">Penulis: ${book.penulis}</p>
+            <p class="book-desc">${book.deskripsi}</p>
+          </div>
+          <button onclick="readBook(${book.id})" class="btn btn-read" style="width: 100%;">📖 Baca Sekarang</button>
+        </div>
+      </div>
+    `;
+  });
 }
 
-function filterBooks(category) {
-    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
-    renderBooks(category);
+// Buka modal untuk membaca buku
+function readBook(id) {
+  const book = DATA_BUKU.find(b => b.id === id);
+  if (book) {
+    document.getElementById('modalTitle').innerText = `${book.judul} - ${book.penulis}`;
+    document.getElementById('modalContent').innerHTML = book.isi;
+    document.getElementById('readerModal').style.display = 'flex';
+  }
 }
 
-function addToCart(bookId) {
-    const book = books.find(b => b.id === bookId);
-    cart.push(book);
-    updateCartUI();
+// Tutup modal
+function closeReader() {
+  document.getElementById('readerModal').style.display = 'none';
 }
 
-function updateCartUI() {
-    document.getElementById('cart-count').innerText = cart.length;
-    const cartBody = document.getElementById('cart-items');
-    
-    if (cart.length === 0) {
-        cartBody.innerHTML = '<p class="empty-cart-msg">Keranjang belanja Anda masih kosong.</p>';
-        document.getElementById('cart-total').innerText = 'Rp 0';
-        return;
-    }
-
-    cartBody.innerHTML = '';
-    let total = 0;
-
-    cart.forEach((item, index) => {
-        total += item.price;
-        cartBody.innerHTML += `
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; border-bottom: 1px solid #eee; padding-bottom: 8px;">
-                <div>
-                    <h4 style="font-size: 0.9rem;">${item.title}</h4>
-                    <span style="font-size: 0.8rem; color: #e74c3c;">Rp ${item.price.toLocaleString('id-ID')}</span>
-                </div>
-                <i class="fa-solid fa-trash" style="color: #e74c3c; cursor: pointer;" onclick="removeFromCart(${index})"></i>
-            </div>
-        `;
-    });
-
-    document.getElementById('cart-total').innerText = `Rp ${total.toLocaleString('id-ID')}`;
+// Pencarian buku
+function searchBook() {
+  const query = document.getElementById('searchInput').value.toLowerCase();
+  const filtered = DATA_BUKU.filter(b => 
+    b.judul.toLowerCase().includes(query) || 
+    b.penulis.toLowerCase().includes(query)
+  );
+  renderBooks(filtered);
 }
 
-function removeFromCart(index) {
-    cart.splice(index, 1);
-    updateCartUI();
-}
-
-function toggleCartModal() {
-    document.getElementById('cart-modal').classList.toggle('open');
-    document.getElementById('overlay').classList.toggle('open');
-}
-
-function checkout() {
-    if (cart.length === 0) {
-        alert('Keranjang Anda masih kosong!');
-        return;
-    }
-    
-    let text = "Halo, saya mau pesan buku berikut:\n";
-    cart.forEach((item, i) => {
-        text += `${i + 1}. ${item.title} - Rp ${item.price.toLocaleString('id-ID')}\n`;
-    });
-    
-    const whatsappUrl = `https://wa.me/6281234567890?text=${encodeURIComponent(text)}`;
-    window.open(whatsappUrl, '_blank');
-}
-
-// Initial render
-renderBooks();
+document.addEventListener('DOMContentLoaded', () => {
+  renderBooks(DATA_BUKU);
+});
