@@ -30,7 +30,39 @@ const books = [
         category: "fiksi",
         price: 115000,
         image: "https://cdn.phototourl.com/member/2026-11-09-784dd255-b62d-4c71-a032-1d964e48541b.jpg"
-    }
+    },
+    {
+        id: 5,
+        title: "spireted away",
+        author: "J.R.R. Tolkien",
+        category: "fantasy",
+        price: 125000,
+        image: "https://cdn.phototourl.com/member/2026-11-11-6336b4e1-ff42-4144-ac4e-836b1f2fd119.jpg"
+    }, 
+    {
+        id: 6,
+        title: "spy family",
+        author: "J.R.R. Tolkien",
+        category: "fantasy",
+        price: 125000,
+        image: "https://cdn.phototourl.com/member/2026-11-11-63b35799-8628-48f1-a47d-e831bafb4799.jpg"
+    }, 
+    {
+        id: 7,
+        title: "revelation",
+        author: "J.R.R. Tolkien",
+        category: "fantasy",
+        price: 125000,
+        image: "https://cdn.phototourl.com/member/2026-11-11-e123d45c-79a6-4050-a910-e4bb4dee1d9c.jpg"
+    },
+    {
+        id: 8,
+        title: "mtk",
+        author: "J.R.R. Tolkien",
+        category: "fantasy",
+        price: 125000,
+        image: "https://cdn.phototourl.com/member/2026-11-11-70e71701-7c72-4112-a8bf-f66f4ca9555b.jpg"
+    } 
 ];
 
 let cart = [];
