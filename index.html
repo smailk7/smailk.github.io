@@ -1,74 +1,51 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tinta & Aksara - Toko Buku & Novel Online</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PustakaBaca - Baca Buku & Novel Online Gratis</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="navbar">
-        <div class="logo">
-            <i class="fa-solid fa-book-open"></i> Tinta & Aksara
-        </div>
-        <nav class="nav-links">
-            <a href="#katalog">Katalog</a>
-            <a href="#tentang">Tentang Kami</a>
-        </nav>
-        <div class="cart-icon-wrapper" onclick="toggleCartModal()">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <span id="cart-count">0</span>
-        </div>
-    </header>
 
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">📖 PustakaBaca</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Beranda</a></li>
+        <li><a href="#koleksi">Koleksi Buku</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
     <section class="hero">
-        <div class="hero-content">
-            <h1>Temukan Kisah Favoritmu Berikutnya</h1>
-            <p>Jelajahi ribuan novel terlaris, fiksi ilmiah, roman, hingga buku pengembangan diri dengan harga terbaik.</p>
-            <a href="#katalog" class="btn-primary">Jelajahi Novel</a>
-        </div>
+      <h1>Perpustakaan Digital Gratis</h1>
+      <p>Baca ribuan buku, novel, dan artikel favoritmu secara langsung tanpa biaya.</p>
+      <div class="search-box">
+        <input type="text" id="searchInput" onkeyup="searchBook()" placeholder="Cari judul buku atau penulis...">
+      </div>
     </section>
 
-    <main class="container" id="katalog">
-        <div class="section-title">
-            <h2>Katalog Buku & Novel</h2>
-            <div class="filter-buttons">
-                <button class="filter-btn active" onclick="filterBooks('all')">Semua</button>
-                <button class="filter-btn" onclick="filterBooks('fiksi')">Fiksi</button>
-                <button class="filter-btn" onclick="filterBooks('fantasy')">Fantasy</button>
-                <button class="filter-btn" onclick="filterBooks('self-dev')">Self-Dev</button>
-            </div>
-        </div>
+    <h2 class="section-title" id="koleksi">📚 Koleksi Buku & Novel</h2>
+    <div class="book-grid" id="book-list"></div>
+  </main>
 
-        <div class="book-grid" id="book-grid">
-            <!-- Data buku di-generate via JavaScript -->
-        </div>
-    </main>
-
-    <!-- Sidebar / Modal Keranjang Belanja -->
-    <div class="cart-modal" id="cart-modal">
-        <div class="cart-header">
-            <h3>Keranjang Belanja</h3>
-            <span class="close-btn" onclick="toggleCartModal()">&times;</span>
-        </div>
-        <div class="cart-body" id="cart-items">
-            <p class="empty-cart-msg">Keranjang belanja Anda masih kosong.</p>
-        </div>
-        <div class="cart-footer">
-            <div class="total-price">
-                <span>Total:</span>
-                <strong id="cart-total">Rp 0</strong>
-            </div>
-            <button class="btn-checkout" onclick="checkout()">Checkout via WhatsApp</button>
-        </div>
+  <!-- Modal Reader untuk Membaca Isi Buku -->
+  <div class="modal" id="readerModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalTitle">Judul Buku</h3>
+        <button class="close-btn" onclick="closeReader()">&times;</button>
+      </div>
+      <div class="modal-body" id="modalContent"></div>
     </div>
-    <div class="overlay" id="overlay" onclick="toggleCartModal()"></div>
+  </div>
 
-    <footer>
-        <p>&copy; 2026 Tinta & Aksara. Dibuat untuk Pecinta Buku.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2026 PustakaBaca. Platform Baca Buku Gratis.</p>
+  </footer>
 
-    <script src="app.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
