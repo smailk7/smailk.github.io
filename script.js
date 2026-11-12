@@ -1,12 +1,12 @@
 const DATA_BUKU = [
   {
     id: 1,
-    judul: "Laskar Pelangi",
+    judul: "demon slayer:Kimetsu no Yaibar",
     penulis: "Andrea Hirata",
-    deskripsi: "Kisah perjuangan 10 anak Belitung menuntut ilmu di tengah keterbatasan.",
-    gambar: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80",
+    deskripsi: "Demon Slayer: Kimetsu no Yaiba menceritakan kisah Tanjiro Kamado, seorang remaja baik hati yang menjadi tulang punggung keluarga dengan menjual arang pada era Taisho di Jepang.",
+    gambar: "https://cdn.phototourl.com/member/2026-11-12-184708e0-6179-4d86-a0f8-a5bb105001e7.jpg",
     halaman: [
-      `<h3>Bab 1: Sepuluh Anggota Baru</h3><p>Pagi itu, matahari terbit dengan enggan di atas desa Gantong. Di halaman sekolah Muhammadiyah yang tua dan lapuk, Bu Muslimah dan Pak Harfan berdiri cemas. Mereka membutuhkan minimal 10 murid agar sekolah tidak ditutup.</p><br><p>Sembilan anak telah duduk di bangku kayu yang sudah goyah. Harapan mulai menipis seiring jarum jam yang terus berputar...</p>`,
+      `<h3>Bab 1:Serial Anime Demon Slayer: Kimetsu no Yaiba bukan sekadar tentang aksi menebas iblis dengan teknik pernapasan dan visual yang memanjakan mata. Di balik keindahan animasi garapan Ufotable, tersimpan kisah tragis tentang ikatan keluarga, trauma, dan batas tipis antara manusia dan iblis yang saling terhubung erat.</p><br><p>Sembilan anak telah duduk di bangku kayu yang sudah goyah. Harapan mulai menipis seiring jarum jam yang terus berputar...</p>`,
       `<h3>Bab 1 (Lanjutan)</h3><p>Ketika harapan hampir pupus, dari kejauhan muncul Harun bersama ibunya. Harun, seorang anak istimewa yang tersenyum riang, berjalan perlahan menuju halaman sekolah.</p><br><p>Dengan hadirnya Harun, jumlah kami menjadi tepat 10 anak! Pak Harfan menghela napas lega, dan Bu Muslimah tersenyum menyambut kami semua.</p>`,
       `<h3>Bab 2: Pohon Filicium</h3><p>Sekolah kami tidak memiliki pagar, tidak ada lapangan olahraga, dan atapnya bocor di mana-mana saat hujan. Namun di bawah naungan pohon Filicium yang rindang di tengah halaman, kami belajar tentang dunia.</p><br><p>Di sinilah Lintang, jenius dari pesisir pantai, menunjukkan kecerdasan luar biasanya.</p>`
     ]
