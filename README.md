@@ -27,3 +27,4 @@ smailk7.github.io/
 │   └── script.js      # Data buku & logika modal pembaca
 ├── index.html         # Halaman utama perpustakaan
 └── README.md          # Dokumentasi proyek
+#https://giffiles.alphacoders.com/219/219641.gif
