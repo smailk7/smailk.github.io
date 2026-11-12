@@ -1,15 +1,16 @@
 const DATA_BUKU = [
   {
     id: 1,
-    judul: "Laskar Pelangi",
-    penulis: "Andrea Hirata",
-    deskripsi: "Kisah perjuangan 10 anak Belitung menuntut ilmu di tengah keterbatasan.",
-    gambar: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80",
+    judul: "Demon slayer:Kimetsu no Yaiba",
+    penulis: "	Koyoharu Gotōge",
+    deskripsi: "Demon Slayer: Kimetsu no Yaiba menceritakan kisah Tanjiro Kamado, seorang remaja baik hati yang menjadi tulang punggung keluarga dengan menjual arang pada era Taisho di Jepang.",
+    gambar: "https://cdn.phototourl.com/member/2026-11-12-184708e0-6179-4d86-a0f8-a5bb105001e7.jpg",
     isi: `
-      <h3>Bab 1: Sepuluh Anggota Baru</h3>
-      <p>Pagi itu, matahari terbit dengan enggan di atas desa Gantong. Di halaman sekolah Muhammadiyah yang tua dan lapuk, Bu Muslimah dan Pak Harfan berdiri cemas. Mereka membutuhkan minimal 10 murid agar sekolah itu tidak ditutup oleh dinas pendidikan.</p>
+      <h3>Bab 1: embantaian Keluarga</h3>
+      <p>•  Suatu hari, Tanjiro terpaksa menginap di luar rumah karena peringatan adanya iblis (Oni). Saat pulang keesokan paginya, ia mendapati seluruh keluarganya dibantai oleh raja iblis, Muzan Kibutsuji.
+</p>
       <br>
-      <p>Sembilan anak telah duduk di bangku kayu yang sudah goyah. Ketika harapan hampir pupus, dari kejauhan muncul Harun bersama ibunya. Harun, seorang anak istimewa, menjadi murid ke-10 yang menyelamatkan sekolah kami.</p>
+      <p>Nezuko Berubah: Hanya satu anggota keluarga yang selamat, yaitu adiknya bernama Nezuko, tetapi ia telah terinfeksi dan berubah menjadi iblis. Meskipun begitu, Nezuko masih memiliki sisa kesadaran dan tidak memangsa manusia.</p>
       <br>
       <p>Sejak hari itu, petualangan kami yang penuh dengan impian, persahabatan, dan perjuangan dimulai...</p>
     `
@@ -58,7 +59,19 @@ const DATA_BUKU = [
       <br>
       <p>Kebiasaan adalah bunga majemuk dari perbaikan diri...</p>
     `
-  }
+  },
+  {
+  id: 5,
+  judul: "Judul Buku Baru",
+  penulis: "Nama Penulis",
+  deskripsi: "Deskripsi singkat tentang isi buku ini.",
+  gambar: "https://link-gambar-sampul.jpg",
+  halaman: [
+    `<h3>Bab 1: Judul Bab</h3><p>Teks isi halaman 1...</p>`,
+    `<h3>Bab 1 (Lanjutan)</h3><p>Teks isi halaman 2...</p>`,
+    `<h3>Bab 2: Judul Bab Baru</h3><p>Teks isi halaman 3...</p>`
+  ]
+}
 ];
 
 // Menampilkan daftar buku
