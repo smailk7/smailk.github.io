@@ -25,11 +25,11 @@ const DATA_BUKU = [
   },
   {
     id: 4,
-    judul: "Atomic Habits",
-    penulis: "James Clear",
-    deskripsi: "Cara mudah dan terbukti untuk membangun kebiasaan baik dan merubah hidup.",
+    judul: "Di Mana Gogo(1)",
+    penulis: "soumya menon",
+    deskripsi: "oto mencari Gogo yang hilang dan akhirnya menemukannya di toko, makan pisang.",
     gambar: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=400&q=80",
-    filePdf: "atomic-habits.pdf"
+    filePdf: "Di Mana Gogo(1).pdf"
   }
 ];
 
