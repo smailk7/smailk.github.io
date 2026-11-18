@@ -1,19 +1,19 @@
 const DATA_BUKU = [
   {
     id: 1,
-    judul: "Laskar Pelangi",
-    penulis: "Andrea Hirata",
-    deskripsi: "Kisah perjuangan 10 anak Belitung menuntut ilmu di tengah keterbatasan.",
+    judul: "Ke Mana Monster Sungai Mengembara",
+    penulis: "khoem la",
+    deskripsi: "Hari ini sekolah Niranheboh. Anak-anak mengaku kalau mereka baru saja melihat monster",
     gambar: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80",
-    filePdf: "laskar-pelangi.pdf" // Ganti dengan nama file PDF yang kamu upload di GitHub
+    filePdf: "Ke Mana Monster Sungai Mengembara.pdf" // Ganti dengan nama file PDF yang kamu upload di GitHub
   },
   {
     id: 2,
-    judul: "Bumi Manusia",
-    penulis: "Pramoedya Ananta Toer",
-    deskripsi: "Perjalanan Minke di awal abad ke-20 melawan ketidakadilan zaman kolonial.",
+    judul: "di mana gogo",
+    penulis: "soumya menon",
+    deskripsi: "Toto bekerja di sebuah kebun binatang yang berada di sebelah hutan. Toto senang bisa bekerja di kebun binatang. Setiap hari, dia bertugas untuk menjaga dan mengawasi hewan-hewan di sana. Hari ini, Toto melihat kandang Gogo, si gorila kosong. Toto terkejut dan segera keluar mencarinya.",
     gambar: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80",
-    filePdf: "bumi-manusia.pdf"
+    filePdf: "Di mana gogo.pdf"
   },
   {
     id: 3,
