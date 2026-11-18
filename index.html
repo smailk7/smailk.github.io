@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PustakaBaca - Perpustakaan Digital PDF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">📖 PustakaBaca</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Beranda</a></li>
+        <li><a href="#koleksi">Koleksi Buku</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Perpustakaan Digital Gratis</h1>
+      <p>Baca koleksi buku dan e-book PDF favoritmu secara langsung tanpa biaya.</p>
+      <div class="search-box">
+        <input type="text" id="searchInput" onkeyup="searchBook()" placeholder="Cari judul buku atau penulis...">
+      </div>
+    </section>
+
+    <h2 class="section-title" id="koleksi">📚 Koleksi E-Book PDF</h2>
+    <div class="book-grid" id="book-list"></div>
+  </main>
+
+  <!-- Modal Reader Khusus PDF (Tanpa Halaman Manual) -->
+  <div class="modal" id="readerModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalTitle">Judul Buku</h3>
+        <div class="header-actions">
+          <a id="downloadBtn" href="#" target="_blank" class="btn btn-small">↗️ Layar Penuh / Unduh</a>
+          <button class="close-btn" onclick="closeReader()">&times;</button>
+        </div>
+      </div>
+      <div class="modal-body pdf-container">
+        <iframe id="pdfViewer" src="" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 PustakaBaca. Platform Baca Buku Gratis.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
