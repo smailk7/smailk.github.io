@@ -5,15 +5,15 @@ const DATA_BUKU = [
     penulis: "khoem la",
     deskripsi: "Hari ini sekolah Niranheboh. Anak-anak mengaku kalau mereka baru saja melihat monster",
     gambar: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80",
-    filePdf: "Ke Mana Monster Sungai Mengembara.pdf" // Ganti dengan nama file PDF yang kamu upload di GitHub
-  },
+    filePdf: "Ke-Mana-Monster-Sungai-Mengembara.pdf" // Ganti dengan nama file PDF yang kamu upload di GitHub
+  }
   {
     id: 2,
     judul: "di mana gogo",
     penulis: "soumya menon",
     deskripsi: "Toto bekerja di sebuah kebun binatang yang berada di sebelah hutan. Toto senang bisa bekerja di kebun binatang. Setiap hari, dia bertugas untuk menjaga dan mengawasi hewan-hewan di sana. Hari ini, Toto melihat kandang Gogo, si gorila kosong. Toto terkejut dan segera keluar mencarinya.",
     gambar: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80",
-    filePdf: "Di Mana Gogo.pdf"
+    filePdf: "DiMana-Gogo.pdf"
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const DATA_BUKU = [
     penulis: "Hari Kumar Nair",
     deskripsi: "Aku mimpi aku mendapatkan anak yang berani dan kurus, tapi aku anak yang berani. Aku tidak suka bangun pagi untuk ke sekolah.",
     gambar: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=400&q=80",
-    filePdf: "Dunia Rahasia Sam.pdf"
+    filePdf: "Dunia-Rahasia-Sam.pdf"
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const DATA_BUKU = [
     penulis: "soumya menon",
     deskripsi: "oto mencari Gogo yang hilang dan akhirnya menemukannya di toko, makan pisang.",
     gambar: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=400&q=80",
-    filePdf: "Di Mana Gogo(1).pdf"
+    filePdf: "Di-Mana-Gogo(1).pdf"
   }
 ];
 
