@@ -287,4 +287,67 @@ footer {
   margin: 1.5rem auto;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}/* Styling untuk wadah daftar cerita */
+#wadah-cerita {
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Styling untuk setiap kartu cerita */
+.kartu-cerita {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.kartu-cerita h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #222222;
+}
+
+.kartu-cerita small {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #555555;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Styling untuk isi cerita (PDF / Gambar / Teks) */
+.isi-cerita {
+  margin-top: 15px;
+  line-height: 1.7;
+  color: #333333;
+}
+
+/* Agar gambar komik strip/webtoon pas di layar HP & Laptop */
+.isi-cerita img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Agar tampilan PDF rapi */
+.isi-cerita iframe {
+  width: 100%;
+  height: 600px;
+  border-radius: 6px;
+  border: 1px solid #dddddd;
+}
+
+/* Penyesuaian khusus layar HP */
+@media (max-width: 600px) {
+  .kartu-cerita {
+    padding: 15px;
+  }
+  .isi-cerita iframe {
+    height: 450px;
+  }
 }
