@@ -23,11 +23,11 @@ const DATA_BUKU = [
     sinopsis: "Ini pengalaman luar biasa bagi Niran dankawan-kawan Semoga penelitian ini bisamembantu menjaga buaya Siam agar tidak punah."
   },
   {
-    judul: "Warung Nasi Goreng Tengah Malam",
-    genre: "Komedi / Slice of Life",
-    tipe: "teks",
-    konten: "Namaku Bima, dan pekerjaanku adalah menjaga warung nasi goreng tenda...",
-    sinopsis: "Pelanggan misterius berjas hujan kuning muncul pukul dua pagi."
+    judul: "di Mana Gogo",
+    genre: "Komedi ",
+    tipe: "pdf",
+    konten: "gogo mana.",
+    sinopsis: "dimana gogo."
   }
 ];
 
