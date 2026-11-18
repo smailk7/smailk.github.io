@@ -13,15 +13,15 @@ const DATA_BUKU = [
     penulis: "soumya menon",
     deskripsi: "Toto bekerja di sebuah kebun binatang yang berada di sebelah hutan. Toto senang bisa bekerja di kebun binatang. Setiap hari, dia bertugas untuk menjaga dan mengawasi hewan-hewan di sana. Hari ini, Toto melihat kandang Gogo, si gorila kosong. Toto terkejut dan segera keluar mencarinya.",
     gambar: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80",
-    filePdf: "Di mana gogo.pdf"
+    filePdf: "Di Mana Gogo.pdf"
   },
   {
     id: 3,
-    judul: "Filosofi Teras",
-    penulis: "Henry Manampiring",
-    deskripsi: "Panduan stoisisme untuk menjaga kedamaian mental di dunia yang penuh kekhawatiran.",
+    judul: "Dunia Rahasia Sam",
+    penulis: "Hari Kumar Nair",
+    deskripsi: "Aku mimpi aku mendapatkan anak yang berani dan kurus, tapi aku anak yang berani. Aku tidak suka bangun pagi untuk ke sekolah.",
     gambar: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=400&q=80",
-    filePdf: "filosofi-teras.pdf"
+    filePdf: "Dunia Rahasia Sam.pdf"
   },
   {
     id: 4,
