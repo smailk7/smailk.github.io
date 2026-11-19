@@ -4,15 +4,15 @@ const DATA_BUKU = [
     judul: "Ke Mana Monster Sungai Mengembara",
     penulis: "khoem la",
     deskripsi: "Hari ini sekolah Niranheboh. Anak-anak mengaku kalau mereka baru saja melihat monster",
-    gambar: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80",
+    gambar: "https://cdn.phototourl.com/anon/2026-11-19-7518207f-b6e1-4f69-b290-7f9a7bb0c8a5.jpg",
     filePdf: "KeManaMonsterSungaiMengembara.pdf" // Ganti dengan nama file PDF yang kamu upload di GitHub
   },
   {
     id: 2,
     judul: "di mana gogo",
     penulis: "soumya menon",
-    deskripsi: "Toto bekerja di sebuah kebun binatang yang berada di sebelah hutan. Toto senang bisa bekerja di kebun binatang. Setiap hari, dia bertugas untuk menjaga dan mengawasi hewan-hewan di sana. Hari ini, Toto melihat kandang Gogo, si gorila kosong. Toto terkejut dan segera keluar mencarinya.",
-    gambar: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80",
+    deskripsi: "Hai, kawan! Apa kamu pernah ke kebun binatang?",
+    gambar: "https://cdn.phototourl.com/anon/2026-11-19-3696ce4d-18cf-4e05-be40-6b12ad8be183.jpg",
     filePdf: "DiManaGogo.pdf"
   },
   {
@@ -20,7 +20,7 @@ const DATA_BUKU = [
     judul: "Dunia Rahasia Sam",
     penulis: "Hari Kumar Nair",
     deskripsi: "Aku mimpi aku mendapatkan anak yang berani dan kurus, tapi aku anak yang berani. Aku tidak suka bangun pagi untuk ke sekolah.",
-    gambar: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=400&q=80",
+    gambar: "https://cdn.phototourl.com/anon/2026-11-19-26393f13-f02c-4fd5-91fc-ed1cc7a99491.jpg",
     filePdf: "DuniaRahasiaSam.pdf"
   },
   {
@@ -28,7 +28,7 @@ const DATA_BUKU = [
     judul: "Di Mana Gogo(1)",
     penulis: "soumya menon",
     deskripsi: "oto mencari Gogo yang hilang dan akhirnya menemukannya di toko, makan pisang.",
-    gambar: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=400&q=80",
+    gambar: "https://cdn.phototourl.com/anon/2026-11-19-1e52be86-dda0-42e4-b494-dd7083c9e1cc.jpg",
     filePdf: "DiManaGogo(1).pdf"
   }
 ];
