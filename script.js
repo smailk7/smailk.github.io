@@ -13,7 +13,7 @@ const DATA_BUKU = [
     penulis: "soumya menon",
     deskripsi: "Hai, kawan! Apa kamu pernah ke kebun binatang?",
     gambar: "https://cdn.phototourl.com/anon/2026-11-19-3696ce4d-18cf-4e05-be40-6b12ad8be183.jpg",
-    filePdf: "DiManaGogo.pdf"
+    filePdf: "DiManaGogo(1).pdf"
   },
   {
     id: 3,
@@ -29,7 +29,31 @@ const DATA_BUKU = [
     penulis: "soumya menon",
     deskripsi: "oto mencari Gogo yang hilang dan akhirnya menemukannya di toko, makan pisang.",
     gambar: "https://cdn.phototourl.com/anon/2026-11-19-1e52be86-dda0-42e4-b494-dd7083c9e1cc.jpg",
-    filePdf: "DiManaGogo(1).pdf"
+    filePdf: "DiManaGogo(2).pdf"
+  },
+  {
+    id: 5,
+    judul: "Transportasi(1)",
+    penulis: "bookbot",
+    deskripsi: "Aku punya sepeda mainan dan ayah bisa mengendarai sepeda besar sendirian.",
+    gambar: "https://cdn.phototourl.com/anon/2026-11-19-26393f13-f02c-4fd5-91fc-ed1cc7a99491.jpg",
+    filePdf: "Transportasi(1).pdf"
+  },
+  {
+    id: 6,
+    judul: "Transportasi(2)",
+    penulis: "bookbot",
+    deskripsi: "Aku punya sepeda mainan dan ayah bisa mengendarai sepeda besar sendirian.",
+    gambar: "https://cdn.phototourl.com/anon/2026-11-19-1e52be86-dda0-42e4-b494-dd7083c9e1cc.jpg",
+    filePdf: "Transportasi(2).pdf"
+  },
+  {
+    id: 7,
+    judul: "Transportasi(3)",
+    penulis: "bookbot",
+    deskripsi: "Aku punya sepeda mainan dan ayah bisa mengendarai sepeda besar sendirian.",
+    gambar: "https://cdn.phototourl.com/anon/2026-11-19-1e52be86-dda0-42e4-b494-dd7083c9e1cc.jpg",
+    filePdf: "rtansportasi(3).pdf"
   }
 ];
 
